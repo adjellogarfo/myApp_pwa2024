@@ -3,11 +3,11 @@ const express = require('express');
 
 const app = express ();
 
-/*responder com "Bem vindo ao myApp" 
+/*responder com "Bem vindo ao myApp!" 
 quando é efectuado um pedido 
 GET para o endereco "/" ou pagina inicial */
 
-app.get('/', (req, res) => res.send('Hello World!'));
+app.get('/', (req, res) => res.send('Bem vindo ao myApp!'));
 
 /*iniciar a porta 3000 para 
 responder aos pedidos de clientes */
